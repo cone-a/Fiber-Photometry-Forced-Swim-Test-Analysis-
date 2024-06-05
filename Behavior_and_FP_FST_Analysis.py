@@ -89,7 +89,7 @@ def func(x, a, b, c):
 
 ### BASELINE DATA
 
-folder_path = 'D:/Fiber Photometry and Behavior FST Day 1/FST FP Data Day 1/'
+folder_path = 'path_to_photometry_files'
 
 dfs_iso= {}
 dfs_gcamp = {}
@@ -233,7 +233,7 @@ for (key, value), (key2, value2) in zip(dfs_iso.items(),dfs_gcamp.items()):
 
 ### BASELINE DATA
 
-folder_path = 'D:/Fiber Photometry and Behavior FST Day 1/FST Behavior Analysis Day 1/'
+folder_path = 'path_to_behavior_files'
 
 dfs_behav = {}
 
